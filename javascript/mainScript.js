@@ -3,6 +3,7 @@ function setup() {
 }
 
 function draw() {
+    setup()
     background('skyblue')
     for (const balloon of Game.balloons) {
         balloon.display()
