@@ -1,7 +1,7 @@
 let ele
 function setup() {
     createCanvas(windowWidth, windowHeight)
-    ele = createAudio('assets/beat.mp3');
+    ele = createAudio('auxiliary_files/back_sound.mp3');
     ele.autoplay(true);
 }
 
