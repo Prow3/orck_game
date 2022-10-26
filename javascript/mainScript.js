@@ -1,6 +1,8 @@
+let ele
 function setup() {
     createCanvas(windowWidth, windowHeight)
-    fullscreen()
+    ele = createAudio('assets/beat.mp3');
+    ele.autoplay(true);
 }
 
 function draw() {
