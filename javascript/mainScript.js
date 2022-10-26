@@ -1,7 +1,7 @@
 let ele
 function setup() {
     createCanvas(windowWidth, windowHeight)
-    ele = createAudio('assets/back_sound.mp3');
+    ele = createAudio('orck_game/auxiliary_files/back_sound.mp3');
     ele.play()
 }
 function draw() {
