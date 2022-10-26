@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas (1870, 1070)
+    createCanvas(windowWidth, windowHeight)
 }
 
 function draw() {
