@@ -3,7 +3,6 @@ function setup() {
     createCanvas(windowWidth, windowHeight)
 }
 function draw() {
-    setup()
     background('skyblue')
     for (const balloon of Game.balloons) {
         balloon.display()
