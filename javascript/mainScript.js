@@ -1,5 +1,3 @@
-let player=new Audio('back_sound.mp3');
-player.play();
 function setup() {
     createCanvas(windowWidth, windowHeight)
 }
