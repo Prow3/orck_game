@@ -1,6 +1,8 @@
 function setup() {
     createCanvas(windowWidth, windowHeight)
 }
+
+   
 function draw() {
     background('skyblue')
     for (const balloon of Game.balloons) {
@@ -83,10 +85,9 @@ class CommonBalloon {
         this.size = size
         this.speed = speed
         this.teleport = 0
-        this.smth = document.getElementById("soldat1")
     }
     display() {
-        fill(this.smth)
+        fill(this.color)
         ellipse(this.x, this.y, this.size)
         line(this.x, this.y + this.size/2, this.x, this.y + 2 * this.size)
     }
